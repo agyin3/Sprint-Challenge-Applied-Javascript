@@ -49,12 +49,13 @@ function Carousels() {
   rightBtn.classList.add('right-button');
 
   // Add Content
+  
   leftBtn.textContent = '<';
   rightBtn.textContent = '>'
-  img1.src = '../../assets/carousel/mountains.jpeg';
-  img2.src = '../../assets/carousel/computer.jpeg';
-  img3.src = '../../assets/carousel/trees.jpeg';
-  img4.src = '../../assets/carousel/turntable.jpeg';
+  img1.src = './assets/carousel/mountains.jpeg';
+  img2.src = './assets/carousel/computer.jpeg';
+  img3.src = './assets/carousel/trees.jpeg';
+  img4.src = './assets/carousel/turntable.jpeg';
 
 
   // Add Event Handlers
