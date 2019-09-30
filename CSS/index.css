@@ -54,6 +54,7 @@ body {
   position: fixed;
   height: 44px;
   background-color: #333;
+  z-index: 1;
 }
 .top-bar .container {
   width: 100%;
@@ -251,6 +252,9 @@ body {
   font-size: 12px;
   letter-spacing: 1px;
   font-weight: bold;
+}
+.carousel-container{
+  z-index: 0;
 }
 .carousel {
   width: 100%;
